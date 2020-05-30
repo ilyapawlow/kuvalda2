@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2027
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "Кувалда", "Кувалда\Кувалда.pyproj", "{95B2774B-ED44-434A-BE5E-5CC657AE6AAE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{95B2774B-ED44-434A-BE5E-5CC657AE6AAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95B2774B-ED44-434A-BE5E-5CC657AE6AAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95B2774B-ED44-434A-BE5E-5CC657AE6AAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95B2774B-ED44-434A-BE5E-5CC657AE6AAE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1C7E8ABC-A434-4149-B470-DF93E855C53E}
+	EndGlobalSection
+EndGlobal

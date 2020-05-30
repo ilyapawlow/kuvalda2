@@ -1,0 +1,177 @@
+﻿{% extends "app/layout.html" %}
+{% load staticfiles %}
+
+{% block content %}
+<!--♕-->
+
+<div class="container">
+    <div class="layout page">
+        <div class="layout__col-l">
+            <div class="page__cnt">
+                <h1 class="page-header">Товары</h1>
+                <ul class="category-lst">
+                    <li class="active">
+                        <div class="category-lst__img">
+                            <a href="/ru/catalog">
+                                <img src="{% static 'app/images/1.jpg' %}">
+                                <span>
+                                    Все товары                                </span>
+                            </a>
+                        </div>
+                    </li>
+                                            <li>
+                            <div class="category-lst__img">
+                                <a href="/ru/catalog/Kolbasy_varenye_sosiski_i_sardelki">
+                                    <img src="{% static 'app/images/2.jpg' %}">
+                                    <span>
+                                        Инструменты                                    </span>
+                                </a>
+                            </div>
+                        </li>
+                                            <li>
+                            <div class="category-lst__img">
+                                <a href="/ru/catalog/Kolbasy_polukopchenye_i_vareno-kopchenye">
+                                    <img src="{% static 'app/images/3.jpg' %}">
+                                    <span>
+                                        Сад и дача                                    </span>
+                                </a>
+                            </div>
+                        </li>
+                                            <li>
+                            <div class="category-lst__img">
+                                <a href="/ru/catalog/kolbasa_syirokopchenaya_i_syirovyalenaya">
+                                    <img src="{% static 'app/images/4.jpg' %}">
+                                    <span>
+                                        Климат и уборка                                   </span>
+                                </a>
+                            </div>
+                        </li>
+                                            <li>
+                            <div class="category-lst__img">
+                                <a href="/ru/catalog/delikatesyi">
+                                    <img src="{% static 'app/images/5.jpg' %}">
+                                    <span>
+                                        Строительство                                   </span>
+                                </a>
+                            </div>
+                        </li>
+                                    </ul>
+                <div class="filter">
+                    <form action="" method="get" class="search-form">        <div class="filter__l">
+                        <input type="text" name="word" placeholder="Поиск по названию товара" value="">            <button class="form-search-button" type="submit"></button>
+                 </div>
+                <div class="filter__r">
+            <span>Сортировка</span>
+            <select name="alphabet" class="action-filter form-control"><option value="">Без сортировки</option>
+            <option value="1">По алфавиту А-Я</option>
+            <option value="2">По алфавиту Я-А</option></select>                                    <label><span>Товаров на странице</span><select name="pagination" class="action-filter form-control"><option value="8">8</option>
+            <option value="16">16</option>
+            <option value="32">32</option></select></label>        </div>
+                </form></div>
+
+
+            <div class="products-lst">
+                    <ul>
+                                    <li>
+                            <div class="products-lst__img">
+                                <a href="/ru/product/acamulyatornyi-drel-shurupovert" title="дрель-шуруповёрт " АКАМУЛЯТОРНЫЙ="" >
+                                    <img src="{% static 'app/images/11.jpg' %}">
+                                </a>
+                            </div>
+                            <div class="products-lst__cnt">
+                                <a class="products-lst__a" href="/ru/product/perforator-setevoy" title="ПЕРФОРАТОР " СЕТЕВОЙ="">
+                                    Перфоратор сетевой MAKITA HR2470
+                                </a>
+                            </div>
+                        </li>
+                                    <li>
+                            <div class="products-lst__img">
+                                <a href="/ru/product/drel-udarnaya-cetevaya" title="ДРЕЛЬ " УДАРНАЯ""="" СЕТЕВАЯ""="">
+                                    <img src="{% static 'app/images/12.jpg' %}">
+                                </a>
+                            </div>
+                            <div class="products-lst__cnt">
+                                <a class="products-lst__a" href="/ru/product/shlifmashina" title="ШЛИФМАШИНА " УГЛОВАЯ""="">
+                                    Угловая шлифмашина сетевая MAKITA GA5030"
+                                </a>
+                            </div>
+                        </li>
+                                    <li>
+                            <div class="products-lst__img">
+                                <a href="/ru/product/electricheskaya-pila-diskovaya" title="ЭЛЕКТРИЧЕСКАЯ ПИЛА " ДИСКОВАЯ"="" >
+                                    <img src="{% static 'app/images/13.jpg' %}">
+                                </a>
+                            </div>
+                            <div class="products-lst__cnt">
+                                <a class="products-lst__a" href="/ru/product/pila-accamulyatornaya-sabelnaya" title="ПИЛА АККАМУЛЯТОРНАЯ " САБЕЛЬНАЯ"="">
+                                    Пила сабельная аккумуляторная METABO SSE 18 LTX
+                                </a>
+                            </div>
+                        </li>
+                                    <li>
+                            <div class="products-lst__img">
+                                <a href="/ru/product/lobzic-setevoy" title="ЛОБЗИК " СЕТЕВОЙ"="" >
+                                    <img src="{% static 'app/images/14.jpg' %}">
+                                </a>
+                            </div>
+                            <div class="products-lst__cnt">
+                                <a class="products-lst__a" href="/ru/product/rubanok-setevoy-interscol" title="РУБАНОК " СЕТЕВОЙ"="" ИНТЕРСКОЛ"="">
+                                    Рубанок сетевой ИНТЕРСКОЛ Р-110/1100                      </a>
+                            </div>
+                        </li>
+                                    <li>
+                            <div class="products-lst__img">
+                                <a href="/ru/product/frezer-seyevoy-stanley" title="ФРЕЗЕР " СЕТЕВОЙ"="" STANLEY"="">
+                                    <img src="{% static 'app/images/15.jpg' %}">
+                                </a>
+                            </div>
+                            <div class="products-lst__cnt">
+                                <a class="products-lst__a" href="/ru/product/gaikovert-accamulyatornuy" title="ГАЙКОВЕРТ " АККАМУЛЯТОРНЫЙ"="">
+                                    Гайковерт аккумуляторный DeWALT DCF 899 P2
+                                </a>
+                            </div>
+                        </li>
+                                    <li>
+                            <div class="products-lst__img">
+                                <a href="/ru/product/fen-stroitelniy" title="ФЕН " СТРОИТЕЛЬНЫЙ""="">
+                                    <img src="{% static 'app/images/12.jpg' %}">
+                                </a>
+                            </div>
+                            <div class="products-lst__cnt">
+                                <a class="products-lst__a" href="/ru/product/pistolet-kleevoy-setevoy" title="ПИСТОЛЕТ КЛЕЕВОЙ " СЕТЕВОЙ""="">
+                                    Пистолет термоклеевой сетевой STEINEL GLUEMATIC
+                                </a>
+                            </div>
+                        </li>
+                                    <li>
+                            <div class="products-lst__img">
+                                <a href="/ru/product/kolbasa-polukopchenaya-pervogo-sorta-salyami-potemkinskaya" title="КОЛБАСА ПОЛУКОПЧЕНАЯ ПЕРВОГО СОРТА " САЛЯМИ="" ПОТЁМКИНСКАЯ""="">
+                                    <img src="{% static 'app/images/16.jpg' %}">
+                                </a>
+                            </div>
+                            <div class="products-lst__cnt">
+                                <a class="products-lst__a" href="/ru/product/gvozdezabivnoy-pistolet-accamulyatornyi" title="ГВОЗДЕЗАБИВНОЙ ПИСТОЛЕТ " АККАМУЛЯТОРНЫЙ="">
+                                    Гвоздезабивной пистолет аккумуляторный DeWALT DCN 890 N по бетону без АКБ"
+                                </a>
+                            </div>
+                        </li>
+                                    <li>
+                            <div class="products-lst__img">
+                                <a href="/ru/product/udarnuy-molot-setevoy" title="УДАРНЫЙ МОЛОТ " СЕТЕВОЙ""="">
+                                    <img src="{% static 'app/images/17.jpg' %}">
+                                </a>
+                            </div>
+                            <div class="products-lst__cnt">
+                                <a class="products-lst__a" href="/ru/product/fonar-accumulatornyi" title="ФОНАРЬ " АККАМУЛЯТОРНЫЙ""="">
+                                    Фонарь аккумуляторный METABO ULA 14.4-18 LED
+                                </a>
+                            </div>
+                        </li>
+                                    
+                                </ul>
+            </div>
+
+
+   
+
+{% endblock %}
