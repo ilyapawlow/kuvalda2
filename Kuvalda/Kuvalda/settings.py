@@ -53,7 +53,7 @@ MIDDLEWARE_CLASSES = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'Кувалда.urls'
+ROOT_URLCONF = 'Kuvalda.urls'
 
 TEMPLATES = [
     {
@@ -71,7 +71,7 @@ TEMPLATES = [
     },
 ]
 
-WSGI_APPLICATION = 'Кувалда.wsgi.application'
+WSGI_APPLICATION = 'Kuvalda.wsgi.application'
 
 
 # Database
