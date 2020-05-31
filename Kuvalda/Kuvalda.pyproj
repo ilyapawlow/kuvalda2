@@ -18,7 +18,7 @@
     <WorkingDirectory>.</WorkingDirectory>
     <WebBrowserUrl>http://localhost</WebBrowserUrl>
     <LaunchProvider>Django launcher</LaunchProvider>
-    <DjangoSettingsModule>Кувалда.settings</DjangoSettingsModule>
+    <DjangoSettingsModule>Kuvalda.settings</DjangoSettingsModule>
     <OutputPath>.</OutputPath>
     <SuppressCollectPythonCloudServiceFiles>true</SuppressCollectPythonCloudServiceFiles>
   </PropertyGroup>
@@ -38,10 +38,10 @@
     <Compile Include="app\__init__.py" />
     <Compile Include="app\migrations\__init__.py" />
     <Compile Include="manage.py" />
-    <Compile Include="Кувалда\__init__.py" />
-    <Compile Include="Кувалда\settings.py" />
-    <Compile Include="Кувалда\urls.py" />
-    <Compile Include="Кувалда\wsgi.py" />
+    <Compile Include="Kuvalda\__init__.py" />
+    <Compile Include="Kuvalda\settings.py" />
+    <Compile Include="Kuvalda\urls.py" />
+    <Compile Include="Kuvalda\wsgi.py" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="app\" />
@@ -53,7 +53,7 @@
     <Folder Include="app\static\app\scripts\" />
     <Folder Include="app\templates\" />
     <Folder Include="app\templates\app\" />
-    <Folder Include="Кувалда\" />
+    <Folder Include="Kuvalda\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="app\templates\app\blog.html" />
